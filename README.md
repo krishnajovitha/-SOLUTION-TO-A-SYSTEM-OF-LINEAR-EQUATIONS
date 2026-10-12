@@ -15,17 +15,11 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
-import os
-os.environ["OPENBLAS_NUM_THREADS"]="1"
-import numpy as np
-
-A=np.array([[5, -3, -10],[2, 2, -3],[-3, -1, 5]])
-B=np.array([-9, 4, -1])
-X=np.linalg.solve(A,B)
-print(X)
+<img width="1920" height="1080" alt="Screenshot 2026-10-12 103836" src="https://github.com/user-attachments/assets/a678bd3d-c9aa-42a5-8a92-1818b943aa96" />
 
 ## Output:
-[-4.  3. -2.]
+<img width="1283" height="215" alt="Screenshot 2026-10-12 105023" src="https://github.com/user-attachments/assets/8d588532-cfa6-4d89-abcc-7e0294d0a104" />
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
